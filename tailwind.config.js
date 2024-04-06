@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./**/*.{html,css}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'hxbold': ['HankenXBold'],
+        'hbold': ['HankenBold'],
+        'hmedium': ['HankenMedium'],
+        'hregular': ['HankenRegular'],
+      }
+    },
   },
   plugins: [],
 }
